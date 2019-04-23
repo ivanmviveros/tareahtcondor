@@ -6,7 +6,7 @@ Priority   = 1000
 
 should_transfer_files = Yes
 when_to_transfer_output = ON_EXIT_OR_EVICT
-transfer_input_files=r330.tgz,nums.csv
+transfer_input_files=portableR.tgz,nums.csv
 
 Executable = runR.bash
 Arguments  = in$(Process).r
