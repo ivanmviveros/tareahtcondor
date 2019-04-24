@@ -15,9 +15,8 @@ Log        = Rlog_$(Cluster).txt
 Input      = in$(Process).r
 Output     = Rout_$(Cluster)_$(Process).txt
 Error      = Rerr_$(Cluster)_$(Process).txt
-# Solicitar 10 core y 1024M RAM
+# Solicitar 1 core y 256M RAM
 request_cpus = 1
 request_memory = 256
-# Solo ejecutarse en cloud.univalle
-# Requirements = UidDomain == "cloud.univalle.edu.co"
+
 Queue 4
